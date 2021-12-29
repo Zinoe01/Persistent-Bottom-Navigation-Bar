@@ -11,13 +11,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeView(),
+      home: PageView(),
     );
   }
 }
 
-class HomeView extends StatelessWidget {
-  const HomeView({Key key}) : super(key: key);
+class PageView extends StatelessWidget {
+  const PageView({Key key}) : super(key: key);
   List<Widget> _buildScreens() {
     return [
       Scaffold(),
